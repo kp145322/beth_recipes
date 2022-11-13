@@ -342,3 +342,7 @@ if save_to_text == 'y':
 \n\nHappy cooking!')
 elif save_to_text == 'n':
   print('\nOk, goodbye!')
+  
+close_program = input('Please close this window or enter \'finish\'\n')
+if close_program == 'finish':
+  print('Goodbye!')
